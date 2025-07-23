@@ -1,0 +1,34 @@
+{
+    "name": "accounting-visualization",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "parcel serve public/index.html",
+        "build": "parcel build public/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint src/**/*.js",
+        "format": "prettier --write src/**/*.js"
+    },
+    "dependencies": {
+        "chart.js": "^3.9.1",
+        "chartjs-chart-treemap": "^2.3.1",
+        "chartjs-plugin-datalabels": "^2.2.0",
+        "chartjs-plugin-zoom": "^1.2.1",
+        "color": "^5.0.0",
+        "d3-hierarchy": "^3.1.2",
+        "d3-scale": "^4.0.2",
+        "date-fns": "^2.29.3",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.8.3",
+        "autoprefixer": "^10.4.13",
+        "eslint": "^8.23.1",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "parcel": "^2.8.3",
+        "postcss": "^8.4.21",
+        "prettier": "^2.7.1",
+        "sass": "^1.57.1"
+    },
+    "browserslist": "> 0.5%, last 2 versions, not dead"
+}
